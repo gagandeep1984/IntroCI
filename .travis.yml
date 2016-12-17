@@ -17,4 +17,10 @@ android:
  # - android-wait-for-emulator
  # - adb shell input keyevent 82 &
 
+# Switching down the email notifications
+notifications:
+  email : false
+    # - address@domain.com
+    # on_success : [ always | nnever | change(default) ]
+    # on_failure : [ always (default) | nnever | change ]
 script: ./gradlew assembleDebug
